@@ -36,7 +36,7 @@ public class SpringDataJpaTest {
 	 * +"  " + c.getPhone()); }
 	 * 
 	 * @Test public void testUpdateJpa(){ Customer c = custDao.findOne(1);
-	 * c.setPhone(7799208899L); custDao.save(c); //In Spring Data JPA the save() is
+	 * c.setPhone(123456789L); custDao.save(c); //In Spring Data JPA the save() is
 	 * either persist() or merge() based on primary key present or not. }
 	 * 
 	 * @Test public void testDeleteJpa(){ Customer c = custDao.findOne(1);
@@ -46,7 +46,7 @@ public class SpringDataJpaTest {
 	 * System.out.println("***FindAll***:" + custs.size()); }
 	 * 
 	 * @Test public void testFindByNameJpa(){ List<Customer> custs =
-	 * custDao.findByCname("ramesh"); System.out.println("***FindByCname***:" +
+	 * custDao.findByCname("testUser"); System.out.println("***FindByCname***:" +
 	 * custs.size()); }
 	 */
 }
